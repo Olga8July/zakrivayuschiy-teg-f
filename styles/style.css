@@ -306,7 +306,7 @@ dialog::backdrop {
   transform: translateX(0);
 }
 
-.button-saved .floppy  {
+.button-saved .floppy {
   mix-blend-mode: difference;
   z-index: 2;
 }
