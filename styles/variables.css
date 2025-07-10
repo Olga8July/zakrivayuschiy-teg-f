@@ -1,1 +1,30 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter', sans-serif;
+    --accent-font: 'Press Start 2P', monospace;
+    --fw-inter-main-text: 400;
+    --fw-inter-title: 700;
+    --fs-inter: 18px;
+    --fw-press: 400;
+    --fs-header-logo: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    --fs-header-title: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+    --bg-color: #1a1a1a;
+    --bg-image:
+        repeating-linear-gradient(to right, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
+        repeating-linear-gradient(to bottom, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
+        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+    --block-weight: clamp(375px, calc(260.563px + 30.516vw), 700px);
+    --block-border-color: #000;
+    --gap-header: 20px;
+    --padding-in-header: clamp(14px, calc(-23.324px + 9.953vw), 120px);
+    --padding-bl-header: clamp(122px, calc(119.887px + 0.563vw), 128px);
+    --bg-color-cards: #fff;
+    --text-shadow-color: #fff;
+    --border-color: #000;
+    --bg-button: #fff;
+    --bs-button-like: 38px;
+    --sz-floppy: 21px;
+    --contour-color: #000;
+    --shadow-color: #000;
+    --animation-fill-color: #FF0000;
+}
