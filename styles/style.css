@@ -261,6 +261,11 @@ dialog::backdrop {
     top: 25px;
     right: 13px;
   }
+
+  .dialog-window[open] {
+    padding-inline: 40px;
+    inline-size: 341px;
+  }
 }
 
 /*filters*/
